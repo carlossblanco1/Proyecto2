@@ -131,27 +131,37 @@ section{
     font-size: 15px;
 }
 
-@media screen and (max-width: 419px) {
-    div .container{
+@media (max-width: 419px) {
+    .container{
         display: flex;
-        flex-direction: column;
-    }
-
-    .mitad-arriba{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .mitad-abajo{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .mitad-derecha{
-        display: flex;
-        flex-direction: column;
+    flex-direction: column;
+    width: 360px;
+    height: 760px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 5px 5px 10px rgb(217, 229, 241);
+    margin-top: 250px;
     }
 }
 
 
 
+/*
+
+.mitad-arriba{
+    display: flex;
+    flex-direction: column;
+}
+
+.mitad-abajo{
+    display: flex;
+    flex-direction: column;
+}
+
+.mitad-derecha{
+    display: flex;
+    flex-direction: column;
+}
+
+*/
